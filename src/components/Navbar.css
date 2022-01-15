@@ -1,0 +1,16 @@
+.navbar {
+    padding: 0 60px;
+    background-color: transparent;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 10px 40px;
+    font-size: 25px;
+    cursor: pointer;
+}

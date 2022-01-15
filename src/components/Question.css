@@ -1,0 +1,101 @@
+.question {
+    font-size: 30px;
+    margin: 3% auto 0;
+    text-align: center;
+    width: 70%;
+    
+}
+
+.options{
+    display: grid;
+    margin: 50px 12%;
+    width: 100%;
+    grid-template-columns: 120px auto;
+    grid-template-rows: 100px auto;
+    align-content: center;
+    text-align: center;
+ }
+
+ .next {
+    width: 200px;
+    margin: auto;
+    background: #000000;
+    color: white;
+    font-size: 22px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: transform .2s;
+  }
+  
+  .next:hover {
+    transform: scale(1.1);
+  }
+ 
+  .option {
+    width: 200px;
+    margin: auto;
+    background: #ffffff;
+    color: #080707;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: transform .2s;
+
+  }
+
+  .disabled {
+    width: 200px;
+    margin: auto;
+    background: #ffffff;
+    color: #080707;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: transform .2s;
+    pointer-events: none;
+    opacity: 0.8;
+
+  }
+
+  .right {
+    width: 200px;
+    margin: auto;
+    background: green;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: transform .2s;
+  }
+
+  .wrong {
+    width: 200px;
+    margin: auto;
+    background: red;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: transform .2s;
+  }
+

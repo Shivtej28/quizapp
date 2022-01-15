@@ -1,0 +1,25 @@
+{
+    "quiz":[
+        {
+            "id":1,
+            "question" : "Everything in a react is ________.",
+            "option 1": {
+                "op" : "Module",
+                "isCorrect" : false
+             },
+             "option 2": {
+                "op" : "Module",
+                "isCorrect" : false
+             },
+             "option 3": {
+                "op" : "Module",
+                "isCorrect" : false
+             },
+             "option 4": {
+                "op" : "Module",
+                "isCorrect" : false
+             }
+             
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+:root {
+  --orange-color: #EE8550;
+  --brown-color: #9B5B6E;
+  --blue-color: #252644;
+  --white-color: #F7F5E9;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://wallpapercave.com/wp/wp4924046.jpg');
+  background-size: cover;
+  
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+.btn {
+  width: 200px;
+  margin: auto;
+  background: var(--orange-color);
+  color: white;
+  font-size: 22px;
+  padding: 12px 40px;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: 2px solid white;
+  text-transform: uppercase;
+  transition: transform .2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
